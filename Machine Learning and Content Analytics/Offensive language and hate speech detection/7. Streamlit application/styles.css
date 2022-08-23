@@ -1,0 +1,319 @@
+h1 {
+    font-family: Source Sans Pro;
+}
+
+.stApp {
+    color: rgba(0, 0, 0, 0.87);
+    font-family: Source Sans Pro;
+}
+
+.main .block-container {
+    padding-top: 52px;
+}
+
+.card {
+    background-color: #0F2147;
+    box-shadow: 0 5px 10px #00000029;
+    border-radius: 24px;
+    padding: 24px;
+    border: none;
+    margin-bottom: 40px;
+    position: relative;
+    padding-bottom: 48px;
+}
+
+.card .card-body {
+    padding: 0;
+}
+
+.card .card-title {
+    color: white;
+    font-size: 21px;
+    font-weight: 500;
+    font-family: Source Sans Pro;
+    margin-bottom: -10px;
+}
+
+.card .card-subtitle {
+    color: #B7BDC8;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Source Sans Pro;
+}
+
+.card .card-img {
+    background-repeat: no-repeat;
+    background-position: top;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    position: absolute;
+}
+
+.main div[data-testid="stImage"] img{
+    background-repeat: no-repeat;
+    position: absolute;
+    top: -135px;
+    right: 30px;
+    width: 120px !important;
+    height: 120px !important;
+    box-shadow: 0px 5px 10px #00000029;
+    border-radius: 65px;
+}
+
+.stButton {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.stButton > button {
+    color: white;
+    background-color: #E35F52;
+    width: 80px;
+    height: 42px;
+    border-radius: 12px;
+    border: none;
+}
+
+.stTextArea > label {
+    font-size: 16px;
+}
+
+.stButton > button:hover {
+    color: white;
+    background-color: #C85348;
+    width: 80px;
+    height: 42px;
+    border-radius: 12px;
+    border: none;
+}
+
+.stButton > button:focus:not(:active) {
+    color: white;
+    background-color: #C85348;
+    width: 80px;
+    height: 42px;
+    border-radius: 12px;
+    border: none;
+}
+
+
+div[data-testid='stForm'] {
+    border-radius: 24px;
+    box-shadow: 0 5px 10px #00000029;
+    border: none;
+    padding: 24px;
+    background-color: #ffffff;
+}
+
+div[data-baseweb="textarea"] {
+    border: none;    ;
+}
+
+button[kind="header"] {
+    background-color: transparent;
+    color:rgb(180, 167, 141)
+}
+
+.stAlert > div[role="alert"] {
+    background-color: #a3d7dc;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px #00000029;
+    margin-top: 32px;
+}
+
+.stAlert > div[role="alert"] p{
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+@media(hover){
+    header[data-testid="stHeader"] {
+        display:none;
+    }
+    section[data-testid='stSidebar'] > div {
+        width: 300px;
+        position: relative;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: white;
+        box-shadow: 0 5px 10px #00000029;
+        border-right: 1px solid #0000001f;
+        overflow-x: hidden;
+        transition: 0.5s ease;
+        white-space: nowrap;
+    }
+    button[kind="header"] {
+        display: none;
+    }
+}
+
+.element-container button[title="View fullscreen"]{
+    display: none;
+}
+
+.stMarkdown p {
+    color: #989898;
+    padding-top: 16px;
+}
+
+.badge {
+    padding: 6px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.badge .badge-success {
+    background-color: #169368;
+}
+
+.badge .badge-danger {
+    background-color: #C15959;
+}
+
+.neutral {
+    padding: 6px;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    border-radius: 4px;
+    background-color: #d2b48c !important;
+}
+
+.streamlit-expander {
+    background-color: #0000000a;
+    border: none;
+    color: #0000008a;
+    font-size: 16px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px #00000029;
+    padding: 0;
+}
+
+.streamlit-expander:hover {
+    background-color: #0000001f;
+}
+
+
+.streamlit-expanderHeader,
+.streamlit-expanderHeader:hover {
+    color: #0F2147;
+    font-weight: 600;
+    padding: 16px;
+    font-size: 16px;
+    margin-top: 32px;
+}
+
+div[data-testid="stExpander"] .streamlit-expanderHeader:hover svg{
+    fill: #5CBCA9 !important;
+}
+
+div[data-testid="stExpander"] .streamlit-expanderHeader svg{
+    fill: #5CBCA9 !important;
+}
+
+.streamlit-expanderContent {
+    background-color: #ffffff;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.vega-embed.has-actions {
+    padding-top: 16px;
+}
+
+.vega-embed summary {
+    margin-top: 16px;
+}
+
+div[data-testid="stJson"] {
+    padding-top: 16px;
+}
+
+div[data-testid="stHorizontalBlock"] {
+    margin-top: 145px;
+    padding: 16px;
+}
+
+div[data-testid="stText"] {
+    color:  #0F2147;
+    font-size: 21px;
+    font-weight: 500;
+    font-family: Source Sans Pro;
+    margin-bottom: -24px;
+    margin-top: -12px;
+    white-space: normal;
+    overflow-wrap: break-word;
+}
+
+.hr-container {
+    width: 100px;
+    position: absolute;
+    right: 50%;
+    left: 42%;
+    top: 10%;
+}
+
+#about-us,
+#we-are-qc-greece {
+    text-align: center;
+    color:  #0F2147;
+    letter-spacing: 1.16px;
+}
+
+#we-are-qc-greece,
+#hateless-app,
+#what-makes-us-special,
+#meet-the-team {
+    color:  #0F2147;
+    margin-bottom: -28px;
+}
+
+#login {
+    color:  #0F2147;
+    font-weight: 500;
+    font-family: Source Sans Pro;
+}
+
+.stTextInput label {
+    color:  #0F2147;
+    font-size: 15px;
+    font-family: Source Sans Pro;
+}
+
+div[data-baseweb="input"] {
+    padding-right: 0;
+    border: none;
+}
+
+.stTextInput svg {
+    fill: #0F2147;
+    margin-right: 6px;
+}
+
+.stButton button[kind="primary"] {
+    position: absolute;
+    bottom: -440px;
+    right: 14px;
+}
+
+#welcome-georgia-arkoumani {
+    position: absolute;
+    top: -134px;
+    right: -303px;
+    font-size: 18px;
+    color:  #0F2147;
+    font-family: Source Sans Pro;
+    font-weight: 500;
+
+}
+
+.main footer {
+    display: none !important;
+}
+
