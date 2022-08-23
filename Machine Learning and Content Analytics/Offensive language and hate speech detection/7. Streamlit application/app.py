@@ -404,8 +404,8 @@ def analyze_token_sentiment(docx):
 def main():
 	if authentication_status:
 		menu = ["Home","About"] # Sidebar menu options
-		#logo_lg = Image.open('logo.png')
-		st.sidebar.image('logo.png', use_column_width=True)
+		#logo_lg = Image.open('images/logos/logo.png')
+		st.sidebar.image('images/logos/logo.png', use_column_width=True)
 		authenticator.logout("Logout", "sidebar")
 		# SIDEBAR
 		with st.sidebar: # Sidebar menu styles inline
@@ -428,8 +428,8 @@ def main():
 					</div>
 				</div>
 			""" ,unsafe_allow_html=True)
-			#logo_round = Image.open('company.png')
-			st.image('company.png', use_column_width=True)
+			#logo_round = Image.open('images/logos/company.png')
+			st.image('images/logos/company.png', use_column_width=True)
 			# FORM 
 			with st.form(key='nlpForm'):
 				raw_text = st.text_area("Enter the comment to be analyzed") # Text area for comments
@@ -476,28 +476,28 @@ def main():
 			st.subheader("What makes us special?")
 			st.write("""
 				We are eager to create a proper environment across all platforms. 
-				Our team is specialised in data analysis and representation with User Interfaces of the actual results in order to determine the corresponding solutions.
+				Our team is specialized in data analysis and representation with User Interfaces of the actual results in order to determine the corresponding solutions.
 			""")
 			st.subheader("Meet the team")
 			col1, col2, col3, col4 = st.columns(4) # GRID
 			with col1:
-				# team1 = Image.open('geo.png')
-				st.image('geo.png', use_column_width=True)
+				# team1 = Image.open('images/geo.png')
+				st.image('images/geo.png', use_column_width=True)
 				st.text("Georgia Arkoumani")
 				st.caption("Data Engineer & UI Specialist")
 			with col2:
 				# team2 = Image.open('myrto.png')
-				st.image('myrto.png', use_column_width=True)
+				st.image('images/myrto.png', use_column_width=True)
 				st.text("Myrto Poulou")
 				st.caption("Statistician & Data Analyst")
 			with col3:
 				# team3 = Image.open('anastasia.png')
-				st.image('anastasia.png', use_column_width=True)
+				st.image('images/anastasia.png', use_column_width=True)
 				st.text("Anastasia Koutsodimitropoulou")
 				st.caption("Business & Data Analyst")
 			with col4:
 				# team4 = Image.open('faey.png')
-				st.image('faey.png', use_column_width=True)
+				st.image('images/faey.png', use_column_width=True)
 				st.text("Eftychia Zaragka")
 				st.caption("Data Engineer & DB Specialist")
 
