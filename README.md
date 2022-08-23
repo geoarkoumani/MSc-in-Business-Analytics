@@ -39,7 +39,7 @@ The project consists of:
 # Requirements
 In addition to the built-in Python, Anaconda & Streamlit distribution libraries, external libraries and packages were also installed.
 
-Prerequisite for the project was the creation and addition to the GitHub repository of 2 files: **requirements.txt** & **packages.txt** containing all the required packages and libraries. 
+Prerequisite for the project was the creation and addition to the GitHub repository of a file: **requirements.txt** containing all the required packages and libraries. 
 
 A list of the aforementioned installed libraries via [PyPi](https://pypi.org/) is:
 - [pyspellchecker](https://pypi.org/project/pyspellchecker/)
