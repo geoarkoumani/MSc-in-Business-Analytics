@@ -88,7 +88,7 @@ Using [Jupyter Notebook](https://jupyter.org/install) or [Google Colaboratory](h
 As per data preparation, 6 different datasets were used from official sources in order to obtain real-world data and train the models effectively. 
 In particular, the datasets used are: [Berkeley Dataset](https://huggingface.co/datasets/ucberkeley-dlab/measuring-hate-speech) (consists of 39,565 comments annotated by 7,912 annotators, for 135,556 combined rows and 131 columns. The primary outcome variable is the "hate speech score" but the 10 constituent labels (sentiment, (dis)respect, insult, humiliation, inferior status, violence, dehumanization, genocide, attack/defense, hate speech benchmark) can also be treated as outcomes. Includes 8 target identity groups (race/ethnicity, religion, national origin/citizenship, gender, sexual orientation, age, disability, political ideology) and 42 identity subgroups), [ethos Dataset](https://huggingface.co/datasets/ethos) (consists of 998 comments (rows) and 2 columns in the dataset alongside with a label about hate speech presence or absence. 565 of them do not contain hate speech, while the rest of them, 433, contain), [ICWSM18 Dataset](https://www.icwsm.org/2018/datasets/datasets/) (consists of 3222 comments (rows) and 10 columns: id, title, type, message, class  & sub 1 to 5 while it contains approximately 75% of hate speech), [All-in-One Jigsaw Dataset](https://www.kaggle.com/code/adldotori/all-in-one-dataset/data) (consists of 2223065 rows and 11 columns with an id, a comment, the main target, the other toxicity subtypes as well as identity attributes), [Davidson Dataset](https://huggingface.co/datasets/hate_speech_offensive) (consists of 24783 rows and 6 columns with hate and offensive speech counts and classes along with the corresponding comment/tweet) & [CONAN Dataset](https://github.com/marcoguerini/CONAN) (consists of 5003 rows and 5 columns with counter narrative pairs covering the multiple hate targets, including DISABLED, JEWS, MIGRANTS etc. Each pair is provided along with its loop information (VERSION), and its target (TARGET). The dataset contains only hate speech.).
 
-All the datasets used are stored in Google Drive and can be accessed [here](https://drive.google.com/drive/folders/1nqMWvCb6EhsqY4Q1C0XGu5m2m_qsvD3K).
+All the datasets used are stored in Google Drive and can be accessed [here](https://drive.google.com/drive/folders/1mB1bttGUALDR7vezQk5MmgQ4sdDpy8Ph).
 ## Final dataset
 After an extended data preparation & cleaning and text & EDA analysis, the final dataset that is used to train the models consists of: **1381262** *rows/comments* and **2** columns: *category* & *lemmatized*.
 # Models
@@ -105,7 +105,12 @@ The models that were trained in order to find the best that decides whether a co
 
 Also, a sentiment analysis was also implemented using [VADER](https://pypi.org/project/vaderSentiment/).
 
-The weights of the respective models are stored in Google Drive and can be accessed [here]().
+As per the models, the XXX model is stored in Google drive and can be accessed [here](https://drive.google.com/drive/folders/1dnfQmkS4FKKL--LIkilLCpqRAZ1eJCL5).
+As far as the BERT model is concerned:
+- a folder `bert_finalized_model` is created in Google drive that contains the final model that we saved locally in order to be able to use it in our app in the future; it can be accessed [here]()
+- an embedding layer was created by importing the Bert model from hub.KerasLayer. You will find the exported model in the notebook: `4.2. BERT Model`.
+
+The weights of the respective models are also stored in Google Drive and can be accessed [here](https://drive.google.com/drive/folders/1c95JnmThbiJiq0Qla43PZyJxMIESHhCn).
 # Streamlit application
 [Streamlit](https://streamlit.io/) is an open-source app framework for Machine Learning and Data Science teams that lets you turn data scripts into shareable web apps using Python.
 
