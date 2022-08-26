@@ -135,7 +135,7 @@ styl = f"""
 		}}
 
 		div[data-baseweb="textarea"] {{
-			border: none;    ;
+			border: none;    
 		}}
 
 		button[kind="header"] {{
