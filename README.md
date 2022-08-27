@@ -48,9 +48,9 @@ Our mission is to detect and eliminate offensive language from social media and 
 # Requirements
 In addition to the built-in Python, Anaconda & Streamlit distribution libraries, external libraries and packages were also installed.
 
-Prerequisite for the project was the creation and addition to the GitHub repository of a file: **requirements.txt** containing all the required packages and libraries. 
+Prerequisite for the application of the project was the creation and addition to the GitHub repository of a file: **requirements.txt** containing all the required packages and libraries. 
 
-A list of the aforementioned installed libraries via [PyPi](https://pypi.org/) is:
+A list of all the aforementioned installed libraries via [PyPi](https://pypi.org/) is:
 - [pyspellchecker](https://pypi.org/project/pyspellchecker/)
 - [autocorrect](https://pypi.org/project/autocorrect/)
 - [nltk](https://www.nltk.org/install.html)
@@ -105,9 +105,9 @@ The models that were trained in order to find the best that decides whether a co
 
 Also, a sentiment analysis was also implemented using [VADER](https://pypi.org/project/vaderSentiment/).
 
-As per the models, the XXX model is stored in Google drive and can be accessed [here](https://drive.google.com/drive/folders/1dnfQmkS4FKKL--LIkilLCpqRAZ1eJCL5).
+As per the models, the RNN, CNN & BERT are stored in Google drive and can be accessed [here](https://drive.google.com/drive/folders/1dnfQmkS4FKKL--LIkilLCpqRAZ1eJCL5).
 As far as the BERT model is concerned:
-- a folder `bert_finalized_model` is created in Google drive that contains the final model that we saved locally in order to be able to use it in our app in the future; it can be accessed [here]()
+- a folder `bert_finalized_model` is created in Google drive that contains the final model that we saved locally in order to be able to use it in our app in the future; it can be accessed [here](https://drive.google.com/drive/folders/1j-BSDEUZpzBlzZuPbNNueYjZyJWmmXED)
 - an embedding layer was created by importing the Bert model from hub.KerasLayer. You will find the exported model in the notebook: `4.2. BERT Model`.
 
 The weights of the respective models are also stored in Google Drive and can be accessed [here](https://drive.google.com/drive/folders/1c95JnmThbiJiq0Qla43PZyJxMIESHhCn).
@@ -133,6 +133,12 @@ streamlit run app.py
 The application runs successfully on http://localhost:8501/.
 ## Streamlit cloud
 The application has been deployed in the Streamlit Cloud. You can access here: [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://machine-learning-and-content-analyticsoffensive-langua-eld23e.streamlitapp.com/)
+
+The universal credentials for logging in to the application are: 
+```bash
+username: guest 
+password: test
+```
 ## hateless app
 ***hateless*** is a sentiment analysis application designed for analyzing comments from various platforms through the internet and identifying if they are offensive or not. The user logs in the application and then writes the corresponding comment that he/she wants to analyze in the respective placeholder and by pressing the ‘Analyze’ button, starts the analysis.
 
