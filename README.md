@@ -37,6 +37,7 @@ The project consists of:
   - [Streamlit cloud](#streamlit-cloud)
   - [hateless app](#hateless-app)
 - [Future Work](#future-work)
+- [Collaborators](#collaborators)
 
 # Business Case
 ![Company logo](https://github.com/geoarkoumani/MSc-in-Business-Analytics/blob/main/Machine_Learning_and_Content_Analytics/Offensive_language_and_hate_speech_detection/7_Streamlit_application/images/logos/company_alt.png)
@@ -160,3 +161,8 @@ Also, it is noticeable that accuracy has been one of the main offensive language
 The main aim is to expand the applications' features to support more funcionalities e.g. setting up a Registration page, User App Dashboard, Addon for connecting social media accounts etc. More information regarding our future goals is demonstrated in our report on Discussion & Future Work section.
 
 As per implementation, the application is on a bug fixing mode regarding the deployment phase and some corrective actions will be performed in the future before the production stage. 
+
+# Collaborators
+- [@faeyzrg](https://github.com/faeyzrg)
+- [@AnastasiaKoutsodimitropoulou](https://github.com/AnastasiaKoutsodimitropoulou)
+- [@myrtopoulou](https://github.com/myrtopoulou)
