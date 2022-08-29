@@ -39,7 +39,9 @@ The project consists of:
 - [Future Work](#future-work)
 
 # Business Case
-Our start-up company QC Greece was first established in 2021 from a group of friends, who wanted with their product to contribute to the elimination of offensive language in social media. QC Greece is an Information Technology and data-driven company that provides the ‘hateless’ app, an application created with machine learning and neural network algorithms.
+[!Company logo](https://github.com/geoarkoumani/MSc-in-Business-Analytics/blob/main/Machine_Learning_and_Content_Analytics/Offensive_language_and_hate_speech_detection/7_Streamlit_application/images/logos/company_alt.png)
+
+Our start-up company **QC Greece** was first established in 2021 from a group of friends, who wanted with their product to contribute to the elimination of offensive language in social media. QC Greece is an Information Technology and data-driven company that provides the ‘**hateless**’ app, an application created with machine learning and neural network algorithms.
 
 Our team is specialized in data analysis and representation with User Interfaces of the actual results in order to determine the corresponding solutions.
 
@@ -140,6 +142,8 @@ username: guest
 password: test
 ```
 ## hateless app
+[!Product logo](https://github.com/geoarkoumani/MSc-in-Business-Analytics/blob/main/Machine_Learning_and_Content_Analytics/Offensive_language_and_hate_speech_detection/7_Streamlit_application/images/logos/logo.png)
+
 ***hateless*** is a sentiment analysis application designed for analyzing comments from various platforms through the internet and identifying if they are offensive or not. The user logs in the application and then writes the corresponding comment that he/she wants to analyze in the respective placeholder and by pressing the ‘Analyze’ button, starts the analysis.
 
 The output of the analysis consists of 3 different sections: ***Sentiment metrics***, ***Sentiment token metrics*** & ***Sentiment metrics visualization***. 
@@ -153,6 +157,6 @@ In the *third* section, a bar chart is represented with the 2 basic metrics ment
 After the corresponding research and training of different models, we identify and examine challenges faced by various approaches for hate speech detection in texts. Among these difficulties are misspellings, human errors while writing a text/comment, autocorrections and in general imbalanced data that can make detecting hate speech a challenging task. The computational cost of the algorithms used to train the models should also be mentioned as a difficulty.
 Also, it is noticeable that accuracy has been one of the main offensive language recognition challenges for many years – and a barrier to entry for many businesses. 
 
-The main aim is to expand the applications' features to support more funcionalities e.g. setting up a Registration page, User App Dashboard, Addon for connecting social media accounts etc. More information is demonstrated in our report.
+The main aim is to expand the applications' features to support more funcionalities e.g. setting up a Registration page, User App Dashboard, Addon for connecting social media accounts etc. More information regarding our future goals is demonstrated in our report on Discussion & Future Work section.
 
 As per implementation, the application is on a bug fixing mode regarding the deployment phase and some corrective actions will be performed in the future before the production stage. 
