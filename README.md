@@ -24,22 +24,26 @@ The project consists of:
 
 
 # Table of Contents
+- [MSc in Business Analytics - AUEB](#msc-in-business-analytics---aueb)
+- [Machine Learning and Content Analytics – Mini Project](#machine-learning-and-content-analytics--mini-project)
+- [Offensive language and hate speech detection](#offensive-language-and-hate-speech-detection)
+- [Table of Contents](#table-of-contents)
 - [Business Case](#business-case)
 - [Requirements](#requirements)
 - [Code](#code)
-    - [Run code](#run-code)
+- [Run code](#run-code)
 - [Datasets](#datasets)
-    - [Final dataset](#final-dataset)
+  - [Final dataset](#final-dataset)
 - [Models](#models)
 - [Streamlit application](#streamlit-application)
-    - [Installation](#installation)
-    - [Run the application](#run-the-application)
-    - [Streamlit Cloud](#streamlit-cloud)
-    - [hateless app](#hateless-app)
+  - [Installation](#installation)
+  - [Run the application](#run-the-application)
+  - [Streamlit cloud](#streamlit-cloud)
+  - [hateless app](#hateless-app)
 - [Future Work](#future-work)
 
 # Business Case
-[!Company logo](https://github.com/geoarkoumani/MSc-in-Business-Analytics/blob/main/Machine_Learning_and_Content_Analytics/Offensive_language_and_hate_speech_detection/7_Streamlit_application/images/logos/company_alt.png)
+![Company logo](https://github.com/geoarkoumani/MSc-in-Business-Analytics/blob/main/Machine_Learning_and_Content_Analytics/Offensive_language_and_hate_speech_detection/7_Streamlit_application/images/logos/company_alt.png)
 
 Our start-up company **QC Greece** was first established in 2021 from a group of friends, who wanted with their product to contribute to the elimination of offensive language in social media. QC Greece is an Information Technology and data-driven company that provides the ‘**hateless**’ app, an application created with machine learning and neural network algorithms.
 
@@ -142,7 +146,7 @@ username: guest
 password: test
 ```
 ## hateless app
-[!Product logo](https://github.com/geoarkoumani/MSc-in-Business-Analytics/blob/main/Machine_Learning_and_Content_Analytics/Offensive_language_and_hate_speech_detection/7_Streamlit_application/images/logos/logo.png)
+![Product logo](https://github.com/geoarkoumani/MSc-in-Business-Analytics/blob/main/Machine_Learning_and_Content_Analytics/Offensive_language_and_hate_speech_detection/7_Streamlit_application/images/logos/logo.png)
 
 ***hateless*** is a sentiment analysis application designed for analyzing comments from various platforms through the internet and identifying if they are offensive or not. The user logs in the application and then writes the corresponding comment that he/she wants to analyze in the respective placeholder and by pressing the ‘Analyze’ button, starts the analysis.
 
