@@ -24,9 +24,6 @@ The project consists of:
 
 
 # Table of Contents
-- [MSc in Business Analytics - AUEB](#msc-in-business-analytics---aueb)
-- [Machine Learning and Content Analytics – Mini Project](#machine-learning-and-content-analytics--mini-project)
-- [Offensive language and hate speech detection](#offensive-language-and-hate-speech-detection)
 - [Table of Contents](#table-of-contents)
 - [Business Case](#business-case)
 - [Requirements](#requirements)
