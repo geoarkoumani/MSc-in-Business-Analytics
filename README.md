@@ -43,7 +43,7 @@ The project consists of:
 - [Future Work](#future-work)
 
 # Business Case
-
+![Company logo](https://github.com/geoarkoumani/MSc-in-Business-Analytics/blob/main/Machine_Learning_and_Content_Analytics/Offensive_language_and_hate_speech_detection/7_Streamlit_application/images/logos/company_alt.png)
 
 Our start-up company **QC Greece** was first established in 2021 from a group of friends, who wanted with their product to contribute to the elimination of offensive language in social media. QC Greece is an Information Technology and data-driven company that provides the ‘**hateless**’ app, an application created with machine learning and neural network algorithms.
 
