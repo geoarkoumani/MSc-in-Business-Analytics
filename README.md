@@ -97,7 +97,7 @@ In particular, the datasets used are: [Berkeley Dataset](https://huggingface.co/
 
 All the datasets used are stored in Google Drive and can be accessed [here](https://drive.google.com/drive/folders/1mB1bttGUALDR7vezQk5MmgQ4sdDpy8Ph).
 ## Final dataset
-After an extended data preparation & cleaning and text & EDA analysis, the final dataset *more_cleaned_df* that is used to train the models consists of: **1381262** *rows/comments* and **2** columns: *category* & *lemmatized*.
+After an extended data preparation & cleaning and text & EDA analysis, the final dataset *more_cleaned_df* that is used to train the models consists of: **1,381,262** *rows/comments* and **2** columns: *category* & *lemmatized*.
 # Models
 The models that were trained in order to find the best that decides whether a comment is offensive or not are:
 - [BoW / TF-IDF Vectorizers](https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.TfidfVectorizer.html)
